@@ -1,5 +1,6 @@
 # Vanilla Plugin Boilerplate
-A plain UMD vanilla javascript plugin boilerplate with optional jQuery initialization 
+A plain UMD vanilla javascript plugin boilerplate with optional jQuery initialization for the sake of convenience.
+This boilerplate is useful for small or fast scripts that don't necessarily need jQuery.
 
 ## Usage
 Change `pluginName` variable to your desired plugin name and include the plugin.
