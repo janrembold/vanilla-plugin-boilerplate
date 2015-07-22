@@ -1,0 +1,10 @@
+# Dev IDE projects
+.idea
+.nbproject
+
+# OSX stuff
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes

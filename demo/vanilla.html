@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Vanilla Plugin Boilerplate Demo</title>
+</head>
+<body style="padding:20px;text-align:center;">
+    <h1>Vanilla Plugin Boilerplate Demo</h1>
+    <p id="demo">Plugin is loading...</p>
+
+    <script src="../js/vanilla-plugin-boilerplate.js"></script>
+    <script>
+        var boilerplate = new Boilerplate(document.getElementById('demo'), {
+            someDefaultOption: 'Plugin was loaded vanilla style!'
+        });
+
+        boilerplate.doSomething();
+    </script>
+</body>
+</html>
